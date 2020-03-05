@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<style type="text/css">
+.txt{
+border-radius: 5px 5px;
+border: 2px solid green;
+padding: 10px;
+
+}
+#button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript" >
+function validate(){
+	
+	 var name=document.getElementById("use").value;;
+	 var pass=document.getElementById("pas");
+	 
+	 if(name=="" || pass==""){
+		 alert("empty username or passsword");
+		 return false;
+		 	 }else 
+		 		 return true;
+}
+</script>
+
+</head>
+<body bgcolor="red">
+	<center>
+		<form method="get" action="loginn" onsubmit="return validate()" >
+		<label for="username">	Username :</label>
+		 <input type="text" id="use" placeholder="username" name="username" class="txt"><br><br>
+		<label for="password">	Password :</label> 
+		<input type="password" id="pas" placeholder="password"
+				name="password" class="txt"><br>
+			<br> <input type="submit" value="submit" name="submit" id="button" ><br><br><br><br><br>
+			<a href="NewUSer.html">New User </a>
+	</center>
+	
+	</form>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Pandit</display-name>
+  <welcome-file-list>
+    <welcome-file>LoginForm.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.cts.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginn </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Ser</servlet-name>
+    <servlet-class>com.cts.Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ser</servlet-name>
+    <url-pattern>/aaa</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginForm</servlet-name>
+    <servlet-class>com.cts.LoginForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginForm</servlet-name>
+    <url-pattern>/LoginForm </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>data</servlet-name>
+    <servlet-class>com.cts.data</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>data</servlet-name>
+    <url-pattern>/dataa </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>password</servlet-name>
+    <servlet-class>com.cts.password</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>password</servlet-name>
+    <url-pattern>/pass </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>specific</servlet-name>
+    <servlet-class>com.cts.search</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>specific</servlet-name>
+    <url-pattern>/spec </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ssa</servlet-name>
+    <servlet-class>com.cts.Search</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ssa</servlet-name>
+    <url-pattern>/ssa</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>eeee</servlet-name>
+    <servlet-class>com.cts.DeleteUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>eeee</servlet-name>
+    <url-pattern>/eeee</url-pattern>
+  </servlet-mapping>
+     <servlet>
+    <servlet-name>dellll</servlet-name>
+    <servlet-class>com.cts.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dellll</servlet-name>
+    <url-pattern>/d</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+   
+</web-app>
